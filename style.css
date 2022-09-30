@@ -1,0 +1,215 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 85vh;
+    font-size: 13px;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+bluebox {
+    display: flex;
+    background-color: #4C01F7;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.logo {
+    padding: 25px;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+.socialmedia {
+    display: flex;
+    flex-direction: column;
+}
+
+.socialmedia h3 {
+    margin-bottom: 5px;
+}
+
+.socialmedia img {
+    cursor: grab;
+}
+
+
+whitebox {
+    display: flex;
+    background-color:white;
+    flex-direction: column;
+    width: 65%;
+}
+
+.bars {
+    margin: 40px;
+}
+
+.bars svg{
+    display: flex;
+    height: 50px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.bars svg:hover{
+    display: flex;
+    height: 50px;
+    margin-left: auto;
+    cursor: pointer;
+    color: #4C01F7;
+}
+
+.whoiam {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: center;
+    padding-left: 29vw;
+    padding-bottom: 10vw;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.firstname {
+    position: absolute;
+    margin-top: -60px;
+}
+
+.familyname {
+    color: #4C01F7;
+}
+
+.profession {
+    margin-bottom: 30px;
+}
+
+.story {
+    max-width: 320px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.portfolio {
+    padding: 15px 25px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    background-color: #4C01F7;
+    border: none;
+    border-radius: 50px;
+    margin-right: 20px;
+    border: 2px solid #4C01F7;
+
+}
+
+.portfolio:hover {
+    padding: 15px 25px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50px;
+
+}
+
+.resume {
+    padding: 15px 25px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.resume:hover {
+    padding: 15px 25px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    background-color: #4C01F7;
+    border: none;
+    border-radius: 50px;
+    margin-right: 20px;
+    border: 2px solid #4C01F7;
+}
+
+.photo img{
+    width: 480px;
+    height: auto;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.35);
+}
+
+.photo {
+    position: absolute;
+    left: 270px;
+    top: 40px;
+}
+
+.photo bar {
+    position: absolute;
+    left: 395px;
+    top: 275px;
+    border-bottom: #4C01F7 solid 6px;
+    width:130px;
+}
